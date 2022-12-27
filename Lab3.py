@@ -8,3 +8,6 @@ print(y[10] == Sum)
 
 (div[X, Y] == Z) <= (X // Y == Z)
 print(div[y[10], 10] == Average)
+
+H = sorted([random.choice(range(99999)) for i in range(100)])
+print("Median: ", (H[49] + H[50]) / 2)
